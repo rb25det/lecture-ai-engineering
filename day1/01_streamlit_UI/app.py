@@ -82,10 +82,10 @@ st.write(f"こんにちは、{name}さん！")
 #     st.write("これは第2タブの内容です")
 
 # エクスパンダー
-# st.subheader("エクスパンダー")
-# with st.expander("詳細を表示"):
-#     st.write("これはエクスパンダー内の隠れたコンテンツです")
-#     st.code("print('Hello, Streamlit！')")
+st.subheader("エクスパンダー")
+with st.expander("詳細を表示"):
+    st.write("これはエクスパンダー内の隠れたコンテンツです")
+    st.code("print('Hello, Streamlit！')")
 
 # ============================================
 # データ表示
